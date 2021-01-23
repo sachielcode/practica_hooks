@@ -1,0 +1,13 @@
+.darkMode__button{   
+  background-color: white;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.darkMode__button:hover{   
+  background-color: yellow;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+}
