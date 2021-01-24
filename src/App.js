@@ -1,32 +1,40 @@
 import React, { useEffect, useState } from 'react';
-import Header from './components/Header';
-import Characters from './components/Characters';
+import ThemeContext from './context/ThemeContext';
+import Content from './Content';
 import './assets/App.css';
 
 function App() {
+  const themes = {
+    light: {
+      name: "Ligth Mode",
+      background: "#eeeeee",
+      color: "black"
+    },
+    dark: {
+      name: "Dark Mode",
+      background: "#121f3d",
+      color: "white"
+    }
+  };
+  
+  const [theme, setTheme] = useState(themes.light);
   const [darkMode, setDarkMode] = useState(false);
-
   const handleClick = () => {
     setDarkMode(!darkMode);
   }
-
+  
   useEffect(()=>{
-    console.log(darkMode);
     if(darkMode){
-      document.body.style.backgroundColor = '#121f3d';
-      document.body.style.color = 'white';
+      setTheme(themes.dark);
     }else{
-      document.body.style.backgroundColor = 'white';
-      document.body.style.color = 'black';
+      setTheme(themes.light);
     }
   },[darkMode]);
-
+  
   return (
-    <div className="App">
-      <Header darkMode={darkMode} handleClick={handleClick}/>
-      <h1>Hola Mundo!</h1>
-      <Characters />
-    </div>
+    <ThemeContext.Provider value={theme}>
+      <Content className="App" handleClick={handleClick} />
+    </ThemeContext.Provider>
   );
 }
 
