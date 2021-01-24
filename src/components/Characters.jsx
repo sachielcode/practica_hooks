@@ -5,8 +5,8 @@ import '../assets/components/Characters.css'
 
 const Characters = () => {
   const [characters, setCharacters] = useState([]);
-  const [pages, setPages] = useState(33);
-  const [pagina, setPagina] = useState(33);
+  const [pages, setPages] = useState(0);
+  const [pagina, setPagina] = useState(0);
   const [load, setLoad] = useState(false);
 
   const fetchCharacters = (pagina) => {
