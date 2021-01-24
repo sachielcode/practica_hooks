@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/practica_hooks/static/css/main.5f823e21.chunk.css",
-    "main.js": "/practica_hooks/static/js/main.2067b95e.chunk.js",
-    "main.js.map": "/practica_hooks/static/js/main.2067b95e.chunk.js.map",
+    "main.css": "/practica_hooks/static/css/main.43730032.chunk.css",
+    "main.js": "/practica_hooks/static/js/main.7749f7dc.chunk.js",
+    "main.js.map": "/practica_hooks/static/js/main.7749f7dc.chunk.js.map",
     "runtime-main.js": "/practica_hooks/static/js/runtime-main.1ab3e80a.js",
     "runtime-main.js.map": "/practica_hooks/static/js/runtime-main.1ab3e80a.js.map",
     "static/js/2.f92c6fe8.chunk.js": "/practica_hooks/static/js/2.f92c6fe8.chunk.js",
     "static/js/2.f92c6fe8.chunk.js.map": "/practica_hooks/static/js/2.f92c6fe8.chunk.js.map",
     "index.html": "/practica_hooks/index.html",
-    "static/css/main.5f823e21.chunk.css.map": "/practica_hooks/static/css/main.5f823e21.chunk.css.map",
+    "static/css/main.43730032.chunk.css.map": "/practica_hooks/static/css/main.43730032.chunk.css.map",
     "static/js/2.f92c6fe8.chunk.js.LICENSE.txt": "/practica_hooks/static/js/2.f92c6fe8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ab3e80a.js",
     "static/js/2.f92c6fe8.chunk.js",
-    "static/css/main.5f823e21.chunk.css",
-    "static/js/main.2067b95e.chunk.js"
+    "static/css/main.43730032.chunk.css",
+    "static/js/main.7749f7dc.chunk.js"
   ]
 }
