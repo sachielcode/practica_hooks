@@ -1,5 +1,6 @@
 {
-  "name": "react-hooks",
+  "homepage": "http://sachielcode.github.io/practica_hooks",
+  "name": "practica_hooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

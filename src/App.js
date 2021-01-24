@@ -6,19 +6,20 @@ import './assets/App.css';
 function App() {
   const themes = {
     light: {
-      name: "Ligth Mode",
+      name: "Ligth",
       background: "#eeeeee",
       color: "black"
     },
     dark: {
-      name: "Dark Mode",
+      name: "Dark",
       background: "#121f3d",
       color: "white"
     }
   };
   
-  const [theme, setTheme] = useState(themes.light);
+  const [theme, setTheme] = useState(themes.dark);
   const [darkMode, setDarkMode] = useState(false);
+  
   const handleClick = () => {
     setDarkMode(!darkMode);
   }

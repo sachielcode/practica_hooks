@@ -4,11 +4,10 @@ import '../assets/components/Header.css';
 
 const Header = ({themeName, handleClick}) => {
 
-  console.log(themeName)
   return (
     <div className="Header" id="Header">
-      <h1>ReactHooks</h1>
-      <button className="darkMode__button" type="button" onClick={handleClick}>{ themeName }</button>
+      <h1>Rick and Morty Characters</h1>
+      <button className="darkMode__button" type="button" onClick={handleClick}>{ themeName == 'Dark' ? 'Ligth Mode' : 'Dark Mode' }</button>
     </div>
   );
 }
