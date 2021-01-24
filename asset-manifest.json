@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/practica_hooks/static/css/main.5f823e21.chunk.css",
-    "main.js": "/practica_hooks/static/js/main.9ede5783.chunk.js",
-    "main.js.map": "/practica_hooks/static/js/main.9ede5783.chunk.js.map",
+    "main.js": "/practica_hooks/static/js/main.751903f5.chunk.js",
+    "main.js.map": "/practica_hooks/static/js/main.751903f5.chunk.js.map",
     "runtime-main.js": "/practica_hooks/static/js/runtime-main.1ab3e80a.js",
     "runtime-main.js.map": "/practica_hooks/static/js/runtime-main.1ab3e80a.js.map",
     "static/js/2.f92c6fe8.chunk.js": "/practica_hooks/static/js/2.f92c6fe8.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1ab3e80a.js",
     "static/js/2.f92c6fe8.chunk.js",
     "static/css/main.5f823e21.chunk.css",
-    "static/js/main.9ede5783.chunk.js"
+    "static/js/main.751903f5.chunk.js"
   ]
 }
